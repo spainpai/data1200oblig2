@@ -1,0 +1,215 @@
+/* for the fonts on the paragraphs we've decided not to specifically assign the font because Times New Roman is the default anyway. Images in the original article were replaced with free to use stock images.*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background-color: rgb(244, 243, 242);
+}
+.page1{
+    margin: 15px;
+    margin-top:5em;
+    border-radius: 10px;
+
+}
+.first-page{
+    border-left:6px solid black;
+    border-right: 2px dashed black;
+    margin: 10px 6%;
+    margin: 0 10%;
+    
+}
+.header-first-page{
+    padding:10px 14%;
+}
+.header-first-page div {
+    padding: 5px;
+}
+.title-page1{
+    display: inline;
+    background-color: red;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.7rem;
+    padding: 3px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.title2-page1{
+    letter-spacing: 1rem;
+    font: small-caps bold 15px/1 sans-serif;
+}
+.header-first-page div h1{
+    text-transform:capitalize ;
+    font-size: 3em;
+    font-family: Lucida Sans Unicode;
+}
+.photo{
+    margin-right: 10px;
+    height: 60%;
+    position: relative;
+    overflow: hidden;
+}
+.photo img{
+   
+  width: 1180px;
+    height: 450px;
+  object-fit:fill;
+}
+.text-photo{
+    color: rgb(250, 250, 250);
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    text-align: right;
+    width: 10%;
+    padding: 5px;
+    font-weight: bold;
+    line-height: 1.5;
+    font-family: sans-serif;
+    font-size: small;
+}
+.under-photo{
+    display: flex;
+    padding: 3px;
+}
+.sidebar-page1{
+    width: 14%;
+    padding: 5px;
+}
+.sidebar-page1 p {
+    font-family: "Times New Roman", serif;
+    font-style:oblique;
+    margin-left:10px;
+    font-size: 17px;
+    line-height: 2;
+    text-align: right;
+}
+.leftside-article-pag1{
+    width: 40%;
+    border-right: 2px dashed black;
+    border-left: 2px dashed black;
+    padding: 10px;
+    line-height: 1.5;
+}
+.drop-cap::first-letter {
+    float: left;
+    font-size: 9em;
+    line-height: 0.5em;
+    padding-bottom: 10px;
+    padding-top:20px;
+    padding-right: 10px;
+    color:rgb(43, 102, 154);
+    font-family: sans-serif;
+  }
+.rightside-article-pag1{
+    width: 40%;
+    padding: 10px;
+    line-height: 1.5;
+}
+.page1-date{
+    margin-left: 9%;
+    margin-right: 8%;
+    margin-bottom: 3em;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.page1-date p {
+    letter-spacing: 0.4em;
+    font-size: 0.8em;
+}
+.page2{
+    margin: 15px;
+    border-radius: 10px;
+}
+.second-page{
+    display: flex;
+    border-right:6px solid black;
+    margin: 10px 6%;
+    margin: 0 10%;
+}
+
+.leftside-page2{
+    width: 42%;
+    border-right: 2px dashed black;
+    border-left: 2px dashed black;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.page2-date{
+    margin-left: 7%;
+    margin-right: 8%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.page2-date p{
+    letter-spacing: 0.4em;
+    font-size: 0.8em;
+    padding: 5px;
+}
+.rightside-page2{
+    width: 56%;
+}
+.rightside-article-over-photo{
+    display: flex;
+}
+.article-over-photo{
+    padding:6px;
+    border-right: 2px dashed black;
+    width: 80%;
+    line-height: 1.5;
+}
+.sidebar-over-photo{
+    width: 25%;
+    padding: 5px;
+}
+.sidebar-over-photo p{
+    font-style: italic;
+    font-size: 17px;
+    line-height: 2;
+    text-align: left;
+    margin: 10px;
+}
+.photo-page2{
+    height: 250px;
+    width: 530px;
+    margin-left: 10px;
+    overflow: hidden;
+
+}
+.photo-page2 img{
+
+width: 530px;
+height: 250px;
+object-fit: fill;
+
+}
+.rightside-article-under-photo {
+    display: flex;
+}
+.article-under-photo{
+    padding:6px;
+    border-right: 2px dashed black;
+    width: 80%;
+    line-height: 1.5;
+}
+.sidebar-under-photo{
+    width: 25%;
+    padding: 5px;
+}
+.sidebar-under-photo p {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin:  10px;
+}
+.right-bottom{
+    text-transform: uppercase;
+}
